@@ -1,0 +1,275 @@
+
+
+
+.num1{ 
+    margin-top: 40px;
+}
+.image{ 
+    width: 200px;
+   margin: 0px 209px 6px 150px;
+}
+.heading1{ 
+    font-size: 57.136px;
+    margin-left: 30px;
+} 
+.para1{ 
+    font-size: 21px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.btn1{ 
+    margin-left: 0px;
+   /* justify-content: center;
+   text-align: center; */
+   padding: 30px;
+}.button2{ 
+    margin-left: 10px;
+   /* justify-content: center;
+   text-align: center;  */
+   padding: 20px 40px;
+   background-color: #0D6EFD;
+}
+.para2{ 
+    margin-top: 30px;
+    margin-left: 40px;
+ 
+}
+.image2{ 
+    width: 19%;
+  
+  
+} 
+.npm{ 
+   margin-top: 40px;
+}
+.para3{ 
+   margin-top: -70px;
+   margin-left: 160px;
+   
+}
+.head1{font-size: 35px; 
+    margin-top: 60px;
+}
+.para4{ 
+    font-size: 20px;
+    margin-top: 20px;
+}
+.para5{ 
+    font-size: 30px;
+    color: #0D6EFD;
+    margin-left: 40px;
+}
+.btnn{ 
+    padding: 20px 40px;
+}
+.icon{ 
+    margin-left: 120px;
+    background-color: #21252913;
+  
+}
+.icon1{ 
+    margin-left: 120px;
+  
+}
+.btnn1{ 
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+.read{ 
+    margin-top: 20px;
+}
+.our{ 
+    color: #0D6EFD;
+   
+}
+.hidden{ 
+    width: 60%;
+}
+.read1{ 
+    margin-left: 60px;
+    font-size: 23.989px;
+}
+.get{ 
+    margin-left: 50px;
+}
+.round1{ 
+    width: 100px;
+   
+}
+.round2{ 
+    width: 100px;
+}
+.cus{ 
+    font-size: 50px;
+}
+.boot{ 
+   
+    font-size: 20px;
+}
+.import{
+    margin-top: 40px;
+    font-size: 30px;
+}.import1{
+   
+    font-size: 15px;
+}
+.var{
+    border: 1px solid black;
+   
+}
+.variable{ 
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.primary{color:red;}
+.secondary{color:#0D6EFD}
+.learn{ 
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.dropdown1{ 
+   border: 1px solid white;
+   border-top: none;
+   border-bottom: none;
+   margin-left: 10px;
+   margin-right: 30px;
+   padding-right: 10px;
+}
+.nav{ 
+    margin-right: 400px;
+}
+/* .place{ 
+    margin-left: 40px;
+} */
+.twitter{ 
+    color: aliceblue;
+    margin-right: 30px;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+.build{ 
+    font-size: 33.674px;
+   
+} 
+.dropbtn{ 
+    color: white;
+}
+.var{ 
+    border: 1px solid black;
+    border-radius: 10px;
+  
+    
+}
+.build1{ 
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+.component{ 
+    border: 1px solid black; 
+    margin-top: 30px;
+  
+   
+}
+.secondary1{  
+margin-top: 30px;
+    margin-left: 40px;
+   
+}
+.variables{ 
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
+.secondary3{  
+    border: 1px solid black;
+    margin-top: 30px;
+        margin-left: 40px;
+       
+    }
+    .api{ 
+        font-size: 33.674px;
+        margin-top: 40px;
+    }
+    .new{ 
+        font-size: 17px;
+    }
+    .home{ 
+        margin: 10px;
+        border: 1px solid black; 
+    }
+    .profile{  
+        margin-left: 10px;
+    }
+    .home1{
+        border: 1px solid black; 
+        border-radius: 20px;
+      padding: 40px 100px;
+
+    }
+    .profile1{ 
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 20px;
+        padding-bottom: 40px;
+
+    }
+    .contact{ 
+        border: 1px solid black;
+       border-radius: 10px;
+       margin-bottom: 40px;
+    } 
+    .explore{ 
+        margin-top: 40px;
+    }
+    .api2{ 
+        border: 1px solid black;
+        padding: 40px;
+        margin-top: 20px;
+    } 
+    .api3{ 
+        font-size: 30px;
+        padding: 10px;
+    } 
+    .ic{ 
+        width: 50%;
+    } 
+    .add{ 
+        font-size: 20px;
+        margin-top: 20px;
+    } 
+    .personize{ 
+        font-size: 50px;
+    }
+    .api4{ 
+        margin-top: 30px;
+    }
+    .why{ 
+        font-size: 17px;
+    } 
+    .drop{ 
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .why1{ 
+        border-bottom: 1px solid black;
+        /* margin-top: 30px; */
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .down{ 
+        margin-bottom: 30px;
+    }
+    .img1{ 
+        width: 90%;
+        margin-left: 30px;
+        margin-top: 30px;
+    } 
+    .ic1{ 
+        width: 40%;
+    }
+    .footer{ 
+        background-color: #F8F9FA;
+        margin-top: 30px;
+    }
