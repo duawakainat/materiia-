@@ -11,7 +11,7 @@ font-size: 16px;
 }
 .image{ 
     width: 200px;
-   margin: 0px 209px 6px 270px;
+   margin: 0px 209px 6px 370px;
 }  
 /* .install{ 
     margin-left: 40px;
@@ -26,7 +26,7 @@ font-size: 16px;
     background-color: #ffc107;
 } */
 .row3{ 
-    margin-left: 100px;
+    margin-left: 170px;
     margin-top: 40px;
 } 
 .ground{
@@ -147,7 +147,7 @@ input{
 }
 .para2{ 
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 200px;
  
 }
 .color{ 
@@ -155,15 +155,15 @@ input{
 }
 .image2{ 
     width: 19%;
-  margin-left: 60px;
+  margin-left:40px;
   
 } 
 .npm{ 
    margin-top: 40px;
 }
 .para3{ 
-   margin-top: -70px;
-   margin-left: 200px;
+   margin-top: -90px;
+   margin-left: 230px;
    
 }
 .head1{font-size: 43px; 
@@ -213,6 +213,7 @@ input{
     padding: 20px 40px; 
     border-radius: 10px;
     border: 1px solid #e2e3e5;
+    margin-left: 120px;
 } 
 /* .over{ 
     width: 50%;
@@ -257,7 +258,7 @@ input{
     /* border: 1px solid #6f42c1; */
     /* background-color: #f7dff7; */
     width: 80px;
-    margin-left: 200px;
+    margin-left: 250px;
     margin-top: 30px; 
     border-radius: 10px;
 } 
