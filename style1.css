@@ -47,7 +47,7 @@ element.style {
     z-index: -1;
     display: block;
     content: "";
-    /* background-image: linear-gradient(rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95)); */
+    background-image: linear-gradient(rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95));
 }
 .p{ 
    margin-top: -20px; 
