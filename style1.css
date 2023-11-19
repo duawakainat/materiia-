@@ -9,9 +9,15 @@
 font-size: 16px;
 /* color: white; */
 }
+.png6{ 
+    margin-right: 450px;
+}
+.include{ 
+    margin-right: 300px;
+}
 .image{ 
     width: 200px;
-   margin: 0px 209px 6px 370px;
+   margin: 0px 209px 6px 300px;
 }  
 /* .install{ 
     margin-left: 40px;
@@ -28,11 +34,10 @@ font-size: 16px;
 .row3{ 
     margin-left: 170px;
     margin-top: 40px;
-} 
-.ground{
-    aspect-ratio: 1/1;
-      background-image: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,1) 85%), radial-gradient(ellipse at top left, rgba(13,110,253,0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(255,228,132,0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(112.520718,44.062154,249.437846,0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(214,51,132,0.5), transparent 50%);
-  }
+}
+.ground1{ 
+background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%),radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
+}
   
 element.style {
 }
@@ -144,40 +149,57 @@ input{
    text-align: center;  */
    padding: 20px 40px;
    background-color: #0D6EFD;
+} 
+pre{ 
+margin: auto;
+border: 20px;
+}
+code{ 
+    margin: auto;
 }
 .para2{ 
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 120px;
  
 }
 .color{ 
-    margin-left: 90px;
+    margin-left: 0px;
 }
 .image2{ 
     width: 19%;
-  margin-left:40px;
+  margin-left:210px;
   
-} 
+}  
+.center{ 
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.center1{ 
+    margin-left: 40px;
+}
 .npm{ 
    margin-top: 40px;
 }
 .para3{ 
    margin-top: -90px;
-   margin-left: 230px;
+   margin-left: 100px;
    
 }
 .head1{font-size: 43px; 
     margin-top: 60px; 
-    margin-right: 30px;
+    margin-right: 20px;
+  
 }
 .para4{ 
     font-size: 20px;
     margin-top: 20px;
+    margin-right: 60px;
 }
 .para5{ 
     font-size: 25px;
     /* color: #0D6EFD; */
-    margin-left: 90px;
+    margin-right: 100px;
+  
 }
 .btnn{ 
     padding: 20px 40px; 
@@ -213,7 +235,7 @@ input{
     padding: 20px 40px; 
     border-radius: 10px;
     border: 1px solid #e2e3e5;
-    margin-left: 120px;
+    margin-left: 20px;
 } 
 /* .over{ 
     width: 50%;
@@ -221,22 +243,28 @@ input{
 .code{ 
     font-size: 90px;
 } 
+
 .one{ 
    border: 1px solid black;
    height: 120px;
    width: 90%;
+   margin-right: 40px;
 } 
 .ones{ 
     border: 1px solid black;
-    margin-top: 20px;
+    margin-top: 20px; 
     width: 90%;
     height: 120px;
+    margin-right: 40px;
  }
 .read{ 
     margin-top: 40px;
 }
 .our{ 
     color: #0D6EFD;
+    margin-right: 100px;
+   
+   
    
 }   
 .white{ 
@@ -258,7 +286,7 @@ input{
     /* border: 1px solid #6f42c1; */
     /* background-color: #f7dff7; */
     width: 80px;
-    margin-left: 250px;
+    margin-left: 350px;
     margin-top: 30px; 
     border-radius: 10px;
 } 
@@ -272,23 +300,33 @@ input{
     border-radius: 10px;
 }
 .w1{ 
-    margin-left: 300px; 
+    margin-left: 390px; 
 }
 .w2{ 
     margin-right: 300px; 
-    margin-left: 40px;
+    margin-left: 60px;
 }
 /* .w3{ 
     margin-right: 200px; 
 } */
 .vite{ 
-    width: 25%;
+    width: 30%;
   
+}
+.vite1{ 
+    margin-right: 400px;
+    width: 6%;
+    margin-top:-100px;
+    margin-left: 450px;
 }
 .pngimg{ 
     margin-top: 30px;
 
 }
+.bs {
+    aspect-ratio: 1/1;
+      background-image: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,1) 85%), radial-gradient(ellipse at top left, rgba(13,110,253,0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(255,228,132,0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(112.520718,44.062154,249.437846,0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(214,51,132,0.5), transparent 50%);
+  }
 .pracel{ 
     width: 30%;
     margin-left: 200px;
@@ -302,7 +340,7 @@ input{
     background-color:lightpink;
     width: 80px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-bottom: 30px;
     border: none;
     border-radius: 10px;
@@ -312,7 +350,7 @@ input{
     /* background-color:rgb(230, 230, 28) ; */
     width: 80px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-bottom: 30px;
     border: none;
     border-radius: 10px;
@@ -355,10 +393,15 @@ margin-left: 600px;
 }
 .cus{ 
     font-size: 50px;
+    margin-left: 150px;
 }
 .boot{ 
    
     font-size: 20px;
+    margin-left: 150px;
+}
+.learn{ 
+    margin-left: 150px;
 }
 .import{
     margin-top: 40px;
@@ -405,12 +448,21 @@ margin-left: 600px;
     /* margin-top: 20px; */
 }
 .build{ 
-    font-size: 33.674px;
+    font-size: 43.674px;
+    margin-left: 140px;
    
 } 
+.png7{ 
+    width: 70px;
+    border: none;
+}
 .dropbtn{ 
     color: white;
 } 
+.learn1{ 
+margin-left: 140px;
+font-size: 25px;
+}
 /* .btn1{ 
     background-color: rgba(248, 248, 198, 0.514);
 } */
@@ -424,6 +476,7 @@ margin-left: 600px;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 140px;
 } 
 .component{ 
     border: 1px solid black; 
@@ -440,6 +493,9 @@ margin-top: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
 } 
+.create1{ 
+    font-size: 30px;
+}
 .secondary3{  
     border: 1px solid black;
     margin-top: 30px;
@@ -447,7 +503,7 @@ margin-top: 30px;
        
     }
     .api{ 
-        font-size: 36.674px;
+        font-size: 46.674px;
         margin-top: 40px;
     }
     .new{ 
