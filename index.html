@@ -1,488 +1,653 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>https://getbootstrap</title> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>https://getbootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style1.css">
 </head>
-<body background="padding: 3rem 0;
+
+<body
+  background="padding: 3rem 0;
 background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%),radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);">
-    <nav class="navbar navbar-expand-lg bgcol ">
-        <div class="container-fluid bgcol1">
-          
-          <!-- <a class="navbar-brand  " href="#"> -->
-            <img src="download-removebg-preview.png" alt="" style="width:5% !important;height: 50px;" width="50" height="54" class="d-inline-block align-text-top nav1">
-            
-          <!-- </a>  -->
-          <a class="navbar-brand bg  " href="#">DOC</a>
-          <a class="navbar-brand bg  " href="#">Examples</a>
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item ">  
-                 <a class="navbar-brand bg  " href="#">Icons</a>
-                  <a class="navbar-brand bg  " href="#">Themes</a>
-                   <a class="navbar-brand bg  " href="#">Blogs</a>
-                <!-- <a class="nav-link active  bg"  href="#">Icon</a> -->
-                <!-- <a class="navbar-brand bg  " href="#">Examples</a> -->
-              <!-- </li>
+  <nav class="navbar navbar-expand-lg bgcol ">
+    <div class="container-fluid bgcol1">
+
+      <!-- <a class="navbar-brand  " href="#"> -->
+      <img src="download-removebg-preview.png" alt="" style="width:5% !important;height: 50px;" width="50" height="54"
+        class="d-inline-block align-text-top nav1">
+
+      <!-- </a>  -->
+      <a class="navbar-brand bg  " href="#">DOC</a>
+      <a class="navbar-brand bg  " href="#">Examples</a>
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item ">
+            <a class="navbar-brand bg  " href="#">Icons</a>
+            <a class="navbar-brand bg  " href="#">Themes</a>
+            <a class="navbar-brand bg  " href="#">Blogs</a>
+            <!-- <a class="nav-link active  bg"  href="#">Icon</a> -->
+            <!-- <a class="navbar-brand bg  " href="#">Examples</a> -->
+            <!-- </li>
               <!-- <li class="nav-item ">
                 <a class="nav-link active  bg" href="#">Themes</a>
               </li> -->
-              <!-- <li class="nav-item ">
+            <!-- <li class="nav-item ">
                 <a class="nav-link active  bg" >Blogs</a>
               </li> -->
-         </ul> 
-            <div class="ics">
-              <input type="text" class="icon2 " value placeholder="Search"></div><nav class="navbar bg-body-tertiary nav1">
-              <!-- cha -->
-            </nav>
-            <!-- <form class=" d-flex">
+        </ul>
+        <div class="ics">
+          <input type="text" class="icon2 form-control " value placeholder="Search">
+          <!-- <img src="https://static.thenounproject.com/png/101791-200.png" class="search-icon" alt=""> -->
+          <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z"
+              stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+          </svg>
+        </div>
+        <nav class="navbar bg-body-tertiary nav1">
+          <!-- cha -->
+        </nav>
+        <!-- <form class=" d-flex">
               <input class="form-control " type="search" placeholder="Search" aria-label="Search">
              
-            </form>  --> 
-          
-          </div><div class="twitter"> 
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-twitter"></i>
-          
-         
-        </div> <div class="dropdown1">
-        <div >
-          <button class="btn  dropdown-toggle  dropbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-           v 5.3
-          </button></div>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Action two</a></li>
-            <li><a class="dropdown-item" href="#">Action bhv</a></li>
-          </ul>
-        </div> <div  class="twitter1">
-        <i class="fa-solid fa-sun"></i> </div>
-        <div class="dropdown2">
-          <div >
-            <button class="btn  dropdown-toggle  dropbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-             
-            </button></div>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Action two</a></li>
-              <li><a class="dropdown-item" href="#">Action bhv</a></li>
-            </ul>
-          </div> 
-     
-        </div>
-      </nav><div class="bs1">  <div class=""> 
-        <div class="">
-      <div class="container-fluid p-0 bs">
-        <div class="num1 ground1">
-          <div class="col-lg-6 col-md-11 col-sm-12 mx-auto ">
-           <span class="row"><div class=""> 
-         <div class="row3">  <p class="color"><button type="button" class="btn btn-warning">New in 5.3v</button> Color mode support, expanded color palette, and more!</p></div></span>
-        </div>
-          
-          <img src="bootstrap-logo-shadow.png" class="img-thumbnail image" alt="..."> 
-          <div class="text-center">
-<h1 class="heading1 fw-semibold 1h-1">Build fast, responsive  sites with Bootstrap</h1>
-<p class="para1">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p></div>
-<div class="btn1">
-    <button type="button" class="btn3  btn-secondary button">$ npm i bootstrap@5.3.2  <i class="fa-regular fa-clipboard book1"></i></button> <button type="button" class="btn  btn-secondary button2">  <i class="fa-solid fa-book-open book"></i>Read the doc</button>
-    <p class="para2">Currently v5.3.2 · Download · All releases</p></div>
- <center>  <span class="row "> <img src="99598a49bedd4878110a5f6071eff761b3c1e2da.jpg" class="img-thumbnail image2" alt="..."></center> 
-    <p class="para3">Learn DNS once and for all. Pre-sale<br> Limited Offer! <br>Ads via carbon</p>
-    
-</span>  <div class="png">
-<img src="code (4).png" class="img-thumbnail" alt="..."></div>
-<center>
-<h1 class="head1">Get started any way you want</h1>
-<p class="para4">Jump right into building with Bootstrap—use the CDN, install it via package manager, or download the source code.</p>
-<p class="para5"><a href="https://getbootstrap.com/docs/5.3/getting-started/download/">Read installation doc <i class="fa-solid fa-arrow-right"></i></a></p> </div></center>
-<!-- </div><div>
-  <i class="fa-solid fa-code" class="code"></i></div>
-        </div> --> 
-       
-       
+            </form>  -->
+
       </div>
-      <div class="container">
-        <div class="row row2">
-          <div class="col-6 col-lg-6 col-md-5 col-sm-12"> 
-            <div class="center">
-         <h3>Install via package manager</h3> 
-         <div>
-         <p >Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don’t include documentation or our full build scripts. You can also <a href="https://github.com/twbs/examples/">use any demo from ourExamples repo</a> to quickly jumpstart Bootstrap projects.</p>
-      <div>   <button type="button" class="btn   btnn">$ npm install bootstrap@5.3.2 <i class="fa-regular fa-copy icon"></i></button>
-         <button type="button" class="btn   btnn1">$ gem install bootstrap -v 5.3.2 <i class="fa-regular fa-copy icon1"></i></button></div>
-         <p class="read"><a href="https://github.com/twbs/examples/">Read our installation docs</a> for more info and additional package<br> managers.</p>
-          </div></div></div>
-          <div class=" col-lg-6 col-md-8 col-sm-12">  
-            <div class="center1">
-            <div class="png6">
-              <img src="globe (4).png" class="img-thumbnail" alt="..."></div>
-            <h3 class="include">Include via CDN</h3> 
-          
-            <p >When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr. See it in action with our simple quick start, or browse the examples to jumpstart your next project. You can also choose to include Popper and our JS separately.</p>
-         <!-- <div class="npm">  <button type="button" class="btn   btnn">$ npm install bootstrap@5.3.2 <i class="fa-regular fa-copy icon"></i></button> -->
-         <!-- <button type="button" class="btn   btnn1">$ gem install bootstrap -v 5.3.2 <i class="fa-regular fa-copy icon1"></i></button></div> 
-          --> 
-          <pre  class="one">  
-         
-            <code> 
-              <span class="our ">link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"</span>
-            </code>
-          </pre> 
-         
-          <pre class="ones"> 
-            <code> 
-              <span class="our">link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"</span>
-            </code>
-          </pre></div>
-        </div>  
+      <div class="twitter">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-twitter"></i>
+
+
+      </div>
+      <div class="dropdown1">
+        <div>
+          <button class="btn  dropdown-toggle  dropbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            v 5.3
+          </button>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Action two</a></li>
+          <li><a class="dropdown-item" href="#">Action bhv</a></li>
+        </ul>
+      </div>
+      <div class="twitter1">
+        <i class="fa-solid fa-sun"></i>
+      </div>
+      <div class="dropdown2">
+        <div>
+          <button class="btn  dropdown-toggle  dropbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+          </button>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Action two</a></li>
+          <li><a class="dropdown-item" href="#">Action bhv</a></li>
+        </ul>
+      </div>
+
     </div>
-           
-            
-    </div></div>
-          <h3 class="read1">Read our getting started guides</h3>
-          <p class="get">Get a jump on including Bootstrap's source files in a new project with our official guides.</p> 
-          <div class="container ">
-            <div class="row ">
-              <div class="col w1">
-                <img src="parcel.png" class="img-thumbnail pracel" alt="...">
+  </nav>
+  <div class="bs1">
+    <div class="">
+      <div class="">
+        <div class="container-fluid p-0 bs">
+          <div class="num1 ground1">
+            <div class="col-lg-6 col-md-11 col-sm-12 mx-auto ">
+              <span class="row">
+                <div class="">
+                  <div class="row3">
+                    <p class="color"><button type="button" class="btn btn-warning">New in 5.3v</button> Color mode
+                      support, expanded color palette, and more!</p>
+                  </div>
+              </span>
+            </div>
+
+            <img src="bootstrap-logo-shadow.png" class="img-thumbnail image" alt="...">
+            <div class="text-center">
+              <h1 class="heading1 fw-semibold 1h-1">Build fast, responsive sites with Bootstrap</h1>
+              <p class="para1">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass,
+                utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript
+                plugins.</p>
+            </div>
+            <div class="btn1">
+              <button type="button" class="btn3  btn-secondary button">$ npm i bootstrap@5.3.2 <i
+                  class="fa-regular fa-clipboard book1"></i></button> <button type="button"
+                class="btn  btn-secondary button2"> <i class="fa-solid fa-book-open book"></i>Read the doc</button>
+              <p class="para2">Currently v5.3.2 · Download · All releases</p>
+            </div>
+            <center> <span class="row "> <img src="99598a49bedd4878110a5f6071eff761b3c1e2da.jpg"
+                  class="img-thumbnail image2" alt="..."></center>
+            <p class="para3">Learn DNS once and for all. Pre-sale<br> Limited Offer! <br>Ads via carbon</p>
+
+            </span>
+            <div class="png">
+              <img src="code (4).png" class="img-thumbnail" alt="...">
+            </div>
+            <center>
+              <h1 class="head1">Get started any way you want</h1>
+              <p class="para4">Jump right into building with Bootstrap—use the CDN, install it via package manager, or
+                download the source code.</p>
+              <p class="para5"><a href="https://getbootstrap.com/docs/5.3/getting-started/download/">Read installation
+                  doc <i class="fa-solid fa-arrow-right"></i></a></p>
+          </div>
+          </center>
+          <!-- </div><div>
+  <i class="fa-solid fa-code" class="code"></i></div>
+        </div> -->
+
+
+        </div>
+        <div class="container">
+          <div class="row row2">
+            <div class="col-6 col-lg-6 col-md-5 col-sm-12">
+              <div class="center">
+                <h3>Install via package manager</h3>
+                <div>
+                  <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor.
+                    Package managed installs don’t include documentation or our full build scripts. You can also <a
+                      href="https://github.com/twbs/examples/">use any demo from ourExamples repo</a> to quickly
+                    jumpstart Bootstrap projects.</p>
+                  <div> <button type="button" class="btn   btnn">$ npm install bootstrap@5.3.2 <i
+                        class="fa-regular fa-copy icon"></i></button>
+                    <button type="button" class="btn   btnn1">$ gem install bootstrap -v 5.3.2 <i
+                        class="fa-regular fa-copy icon1"></i></button>
+                  </div>
+                  <p class="read"><a href="https://github.com/twbs/examples/">Read our installation docs</a> for more
+                    info and additional package<br> managers.</p>
+                </div>
               </div>
-              <div class="col w2">
-                <img src="vite.svg" class="img-thumbnail vite" alt="...">
+            </div>
+            <div class=" col-lg-6 col-md-8 col-sm-12">
+              <div class="center1">
+                <div class="png6">
+                  <img src="globe (4).png" class="img-thumbnail" alt="...">
+                </div>
+                <h3 class="include">Include via CDN</h3>
+
+                <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr. See it in action
+                  with our simple quick start, or browse the examples to jumpstart your next project. You can also
+                  choose to include Popper and our JS separately.</p>
+                <!-- <div class="npm">  <button type="button" class="btn   btnn">$ npm install bootstrap@5.3.2 <i class="fa-regular fa-copy icon"></i></button> -->
+                <!-- <button type="button" class="btn   btnn1">$ gem install bootstrap -v 5.3.2 <i class="fa-regular fa-copy icon1"></i></button></div> 
+          -->
+
+                <div class="border-1 bg-primary" style="width: 90%;">
+
+                </div>
+
+           <pre class="pre-text">
+            <code> 
+              <span class="pre-inner">
+                <span><</span>
+                <span class="red">link</span>
+                <span class="blue">&nbsp;href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" ></span>
+              </span>
+            </code>
+          </pre>
+          <pre class="pre-text">
+            <code> 
+              <span class="pre-inner">
+                <span><</span>
+                <span class="red">link</span>
+                <span class="blue">&nbsp;href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" ></span>
+              </span>
+            </code>
+          </pre>
+               
               </div>
-              <div class="col w">
-                <img src="webpack.svg" class="img-thumbnail vite1" alt="...">
-              </div>
-              <!-- <div class="col w3">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <h3 class="read1">Read our getting started guides</h3>
+      <p class="get">Get a jump on including Bootstrap's source files in a new project with our official guides.</p>
+      <div class="container ">
+        <div class="row ">
+          <div class="col w1">
+            <img src="parcel.png" class="img-thumbnail pracel" alt="...">
+          </div>
+          <div class="col w2">
+            <img src="vite.svg" class="img-thumbnail vite" alt="...">
+          </div>
+          <div class="col w">
+            <img src="webpack.svg" class="img-thumbnail vite1" alt="...">
+          </div>
+          <!-- <div class="col w3">
                 <img src="webpack.svg" class="img-thumbnail web" alt="...">
               </div> -->
-            </div>
-          </div>  
-          <div class="png3">
-            <img src="pantone.png" class="img-thumbnail" alt="..."></div>
-         <h1 class="cus">Customize everything with Sass</h1> 
-         <div class="col-6 col-lg-6 col-md-9 col-sm-12">
-        <p class="boot">Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need, enable global options like gradients and shadows, and write your own CSS with our variables, maps, functions, and mixins.</p>
-         <a href="https://getbootstrap.com/docs/5.3/customize/overview/" class="learn">Learn more about customising<i class="fa-solid fa-arrow-right"></i></a>
-          </div>  </div>
-          <div class="container">
-            <div class="row ">
-              <div class="col-6 col-lg-6 col-md-9 col-sm-12">
-               <h3 class="import">Include all of Bootstrap’s Sass</h3>
-               <p class="import1">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
-               <div class="var"><p class="variable">// Variable overrides first<br>
-             <span class="primary"> $primary</span><span class="secondary">: #900;</span> <br>
-             <span class="primary">$enable-shadows</span>  <span class="secondary">: true;</span><br>
-             <span class="primary">$prefix</span>  <span class="secondary"> : "mo-";</span><br><br>
-                
-                // Then import Bootstrap<br>
-                <span class="primary"> @import</span> <span class="secondary">  @import "../node_modules/bootstrap/scss/bootstrap"</span>
-                
-              </div></div>
-              <div class="col-6 col-lg-6 col-md-8 col-sm-12">
-                <h3 class="import">Include all of Bootstrap’s Sass</h3>
-                <p class="import1">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
-                <div class="var"><p class="variable">// Variable overrides first<br>
+        </div>
+      </div>
+      <div class="png3">
+        <img src="pantone.png" class="img-thumbnail" alt="...">
+      </div>
+      <h1 class="cus">Customize everything with Sass</h1>
+      <div class="col-6 col-lg-6 col-md-9 col-sm-12">
+        <p class="boot">Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components
+          you need, enable global options like gradients and shadows, and write your own CSS with our variables, maps,
+          functions, and mixins.</p>
+        <a href="https://getbootstrap.com/docs/5.3/customize/overview/" class="learn">Learn more about customising<i
+            class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-6 col-lg-6 col-md-9 col-sm-12">
+          <h3 class="import">Include all of Bootstrap’s Sass</h3>
+          <p class="import1">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
+          <div class="var">
+            <p class="variable">// Variable overrides first<br>
               <span class="primary"> $primary</span><span class="secondary">: #900;</span> <br>
-              <span class="primary">$enable-shadows</span>  <span class="secondary">: true;</span><br>
-              <span class="primary">$prefix</span>  <span class="secondary"> : "mo-";</span><br><br>
-                 
-                 // Then import Bootstrap<br>
-                 <span class="primary"> @import</span> <span class="secondary">  @import "../node_modules/bootstrap/scss/bootstrap"</span><br>
-                 // Required Bootstrap imports
- <span class="primary">@import</span><span class="secondary"> "../node_modules/bootstrap/scss/variables";</span><br>
- <span class="primary">@import</span><span class="secondary">  "../node_modules/bootstrap/scss/variables-dark";</span><br>
- <span class="primary">@import</span><span class="secondary">  "../node_modules/bootstrap/scss/maps";</span><br>
- <span class="primary">@import</span> <span class="secondary"> "../node_modules/bootstrap/scss/mixins";</span><br>
- <span class="primary">@import</span> <span class="secondary"> "../node_modules/bootstrap/scss/root";</span><br>
+              <span class="primary">$enable-shadows</span> <span class="secondary">: true;</span><br>
+              <span class="primary">$prefix</span> <span class="secondary"> : "mo-";</span><br><br>
 
-// Optional components<br>
-<span class="primary">@import</span> <span class="secondary"> "../node_modules/bootstrap/scss/utilities";</span><br>
-<span class="primary">@import</span> <span class="secondary"> "../node_modules/bootstrap/scss/reboot";</span><br>
-<span class="primary">@import</span> <span class="secondary">  "../node_modules/bootstrap/scss/containers";</span><br>
-<span class="primary">@import</span><span class="secondary"> "../node_modules/bootstrap/scss/grid";</span><br>
-<span class="primary">@import</span><span class="secondary"> "../node_modules/bootstrap/scss/helpers";</span><br>
-<span class="primary">@import</span><span class="secondary">"../node_modules/bootstrap/scss/utilities/api";</span><br></div>
-              
-              <p class="learn"> Learn more about <a href="https://getbootstrap.com/docs/5.3/customize/sass/">using Bootstrap with Sass.</a></p>
-              
-            </div> </div> 
-          </div>  
-          <div class="png5">
-            <img src="brackets.png" class="img-thumbnail" alt="..."></div>
+              // Then import Bootstrap<br>
+              <span class="primary"> @import</span> <span class="secondary"> @import
+                "../node_modules/bootstrap/scss/bootstrap"</span>
 
-            <h1 class="build">Build and extend in real-time with<br> CSS variables</h1> 
-            <P class="build1">Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme styles,<br>  individual components, and even utilities. We provide dozens of variables for colors, font styles,<br> and more at a :root level for use anywhere. On components and utilities, CSS variables are<br> scoped to the relevant class and can easily be modified.</P>
-       <div class="learn1">    <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/  ">Learn more about CSS variables <i class="fa-solid fa-arrow-right"></i></a></div> 
           </div>
+        </div>
+        <div class="col-6 col-lg-6 col-md-8 col-sm-12">
+          <h3 class="import">Include all of Bootstrap’s Sass</h3>
+          <p class="import1">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
+          <div class="var">
+            <p class="variable">// Variable overrides first<br>
+              <span class="primary"> $primary</span><span class="secondary">: #900;</span> <br>
+              <span class="primary">$enable-shadows</span> <span class="secondary">: true;</span><br>
+              <span class="primary">$prefix</span> <span class="secondary"> : "mo-";</span><br><br>
+
+              // Then import Bootstrap<br>
+              <span class="primary"> @import</span> <span class="secondary"> @import
+                "../node_modules/bootstrap/scss/bootstrap"</span><br>
+              // Required Bootstrap imports
+              <span class="primary">@import</span><span class="secondary">
+                "../node_modules/bootstrap/scss/variables";</span><br>
+              <span class="primary">@import</span><span class="secondary">
+                "../node_modules/bootstrap/scss/variables-dark";</span><br>
+              <span class="primary">@import</span><span class="secondary">
+                "../node_modules/bootstrap/scss/maps";</span><br>
+              <span class="primary">@import</span> <span class="secondary">
+                "../node_modules/bootstrap/scss/mixins";</span><br>
+              <span class="primary">@import</span> <span class="secondary">
+                "../node_modules/bootstrap/scss/root";</span><br>
+
+              // Optional components<br>
+              <span class="primary">@import</span> <span class="secondary">
+                "../node_modules/bootstrap/scss/utilities";</span><br>
+              <span class="primary">@import</span> <span class="secondary">
+                "../node_modules/bootstrap/scss/reboot";</span><br>
+              <span class="primary">@import</span> <span class="secondary">
+                "../node_modules/bootstrap/scss/containers";</span><br>
+              <span class="primary">@import</span><span class="secondary">
+                "../node_modules/bootstrap/scss/grid";</span><br>
+              <span class="primary">@import</span><span class="secondary">
+                "../node_modules/bootstrap/scss/helpers";</span><br>
+              <span class="primary">@import</span><span
+                class="secondary">"../node_modules/bootstrap/scss/utilities/api";</span><br>
+          </div>
+
+          <p class="learn"> Learn more about <a href="https://getbootstrap.com/docs/5.3/customize/sass/">using Bootstrap
+              with Sass.</a></p>
+
+        </div>
+      </div>
+    </div>
+    <div class="png5">
+      <img src="brackets.png" class="img-thumbnail" alt="...">
+    </div>
+
+    <h1 class="build">Build and extend in real-time with<br> CSS variables</h1>
+    <P class="build1">Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme
+      styles,<br> individual components, and even utilities. We provide dozens of variables for colors, font styles,<br>
+      and more at a :root level for use anywhere. On components and utilities, CSS variables are<br> scoped to the
+      relevant class and can easily be modified.</P>
+    <div class="learn1"> <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/  ">Learn more about CSS
+        variables <i class="fa-solid fa-arrow-right"></i></a></div>
+  </div>
+  <div class="container ">
+    <div class="row   ">
+      <div class="col-6 col-lg-6 col-md-6 col-sm-12">
+        <h3 class="variables">Using CSS variables</h3>
+        <p>Use any of our <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/#root-variables">global
+            :root variables </a>to write new styles. CSS variables use the<br> <span
+            class="primary">var(--bs-variableName)</span> syntax and can be inherited by children elements.</p>
+        <p class="component mt-5 "> <span class="secondary1 secondary mt-5">.component</span> {<br>
+          <span class="secondary1 secondary mt-5">color</span> <span class="primary">: var(--bs-gray-800);</span>:
+          var(--bs-gray-800); <br>
+          <span class="secondary1 secondary"> background-color</span> <span class="primary">:
+            var(--bs-gray-100);</span><br>
+          <span class="secondary1 secondary">border</span> <span class="primary">border: 1px solid
+            var(--bs-gray-200);</span> <br>
+          <span class="secondary1 secondary"> border-radius</span> <span class="primary">border-radius:
+            .25rem;</span><br><br>
+          }
+
+          <span class="secondary1 primary"> .component-header{ </span><br>
+          <span class="secondary1 secondary"> color</span><span class="primary">: var(--bs-purple);</span>:
+          var(--bs-purple);<br>
+          }
+        </p>
+      </div>
+      <div class="col-6 col-lg-6 col-md-6 col-sm-12 ">
+        <h3 class="variables">Customizing via CSS variables</h3>
+        <p>Override global, component, or utility class variables to customize Bootstrap just<br> how you like. No need
+          to redeclare each rule, just a new variable value.</p>
+        <p class="secondary3"> <span class=" secondary secondary2"> body {</span> <br>
+          <span class=" secondary secondary2"> --bs-body-font-family</span> <span class="primary">border-radius:
+            .25rem;</span>: var(--bs-font-monospace);<br>
+          <span class=" secondary secondary2"> --bs-body-line-height:</span><span class="primary"> .25rem;</span> <br>
+          <span class=" secondary secondary2"> --bs-body-line-height:</span><span class="primary"> :
+            var(--bs-gray-100);</span><br>
+          <span class=" secondary secondary2"> --bs-body-line-height: 1.4;</span> <span class="primary">:
+            var(--bs-gray-100);</span> ;<br>
+          }<br>
+
+          <span class=" secondary secondary1"> .table </span> {<br>
+          <span class=" secondary secondary2">--bs-table-color</span> <span class="primary">:
+            var(--bs-gray-600);</span><br>
+          <span class=" secondary secondary2"> --bs-table-bg</span> <span class="primary">:
+            var(--bs-gray-100);</span><br>
+          <span class=" secondary secondary2">--bs-table-border-color</span> <span class="primary">:
+            transparent;</span><br>
+          }
+        </p>
+      </div>
+      <span>
+        <img src="square.png " class="img-thumbnail png7" alt="...">+ <img src="asterisk.png "
+          class="img-thumbnail png7" alt="..."></span>
+      <h1 class="api">Components, meet the Utility API</h1>
+      <p class="new">New in Bootstrap 5, our utilities are now generated by our<a
+          href="https://getbootstrap.com/docs/5.3/utilities/api/"> Utility API. </a>We built it as a feature- packed
+        Sass map that can be quickly and easily customized. It's never been easier to add, remove, or modify any utility
+        classes. Make utilities responsive, add pseudo-class variants, and give them custom names.</p>
+      <div class="container ">
+        <div class="row ">
+          <div class="col-7 col-lg-6 col-md-8 col-sm-12 contact1  ">
+            <h1 class="api3 ">Quickly customize components</h1>
+            <p class="new">Apply any of our included utility classes to our components to customize their appearance,
+              like the navigation example below. There are hundreds of classes available—from positioning and sizing to
+              colors and effects. Mix them with CSS variable overrides for even more control.</p>
+            <div class="var"> <button type="button" class="btn btn-primary home ">Home</button><span
+                class="profile">Profile </span> <span class="profile"> Contact</span><br>
+              <!-- <div class="profile1">  <button type="button" class="btn  home1">Home</button><span class="profile">Profile </span> <span class="profile"> Contact</span></div> -->
+              <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm mb-3" id="pillNav2"
+                role="tablist"
+                style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                <li class="nav-item " role="presentation">
+                  <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab"
+                    aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab"
+                    aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <!-- <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button> -->
+                </li>
+              </ul>
+            </div>
+            <div class="api2">
+              <span class="primary"> @import</span> <span class=" secondary secondary">
+                "bootstrap/scss/bootstrap";</span><br>
+
+              <span class="primary"> $utilities</span> <span class=" secondary secondary"> : map-merge </span> <br>
+              <span class="primary"> $utilities</span> ,<br>
+              <br>
+              <span class="primary"> "cursor"</span> <span class=" secondary secondary"> :table </span>: (<br>
+              <span class="primar"> property</span> <span class=" secondary secondary">: cursor, </span> <br>
+              <span class="primary"> class</span> <span class=" secondary secondary"> : cursor, </span> <br>
+              <span class="primary">responsive</span> <span class=" secondary secondary"> : true, </span> <br>
+              <span class="primary"> values</span> <span class=" secondary secondary"> : auto pointer grab, </span> <br>
+              )<br>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-5 col-lg-6 col-md-8 col-sm-12">
+
+            <h1 class="create1 ">Create and extend utilities</h1>
+            <p class="new">Use Bootstrap's utility API to modify any of our included utilities or create your own custom
+              utilities for any project. Import Bootstrap first, then use Sass map functions to modify, add, or remove
+              utilities.</p>
+            <div class="api2"> <span class="primary"> @import</span> <span class=" secondary secondary1">
+                "bootstrap/scss/bootstrap";</span><br>
+
+              <span class="primary"> $utilities</span> <span class=" secondary secondary1"> : map-merge( </span> <br>
+              <span class="primary"> $utilities</span> ,<br>
+              (<br>
+              <span class="primary"> "cursor"</span> <span class=" secondary secondary4"> :table </span>: (<br>
+              <span class="primary"> property</span> <span class=" secondary secondary4">: cursor, </span> <br>
+              <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
+              <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
+              <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span>
+              <br>
+              )<br>
+              )<br>
+              );<br>
+            </div>
+            <div class="explore">
+              <a href="https://getbootstrap.com/docs/5.3/utilities/api/">Explore the utility API<i
+                  class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+
+          <div class="pngimg">
+            <img src="plug.png" class="img-thumbnail" alt="...">
+          </div>
+
+          <h1 class="api ">Powerful JavaScript plugins<br> without jQuery</h1>
+          <p class="add">Add toggleable hidden elements, modals and offcanvas menus, popovers and tooltips, and so<br>
+            much more—all without jQuery. Bootstrap's JavaScript is HTML-first, meaning most plugins are<br> added with
+            data attributes in your HTML. Need more control? Include individual plugins<br> programmatically.</p>
+          <a href="https://getbootstrap.com/docs/5.3/utilities/api/">Learn more about Bootstrap JavaScript<i
+              class="fa-solid fa-arrow-right"></i></a>
           <div class="container ">
-            <div class="row   ">
+            <div class="row ">
               <div class="col-6 col-lg-6 col-md-6 col-sm-12">
-               <h3 class="variables">Using CSS variables</h3>
-               <p>Use any of our <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/#root-variables">global :root variables </a>to write new styles. CSS variables use the<br> <span class="primary">var(--bs-variableName)</span> syntax and can be inherited by children elements.</p>
-              <p class="component mt-5 "> <span class="secondary1 secondary mt-5">.component</span>  {<br>
-                <span class="secondary1 secondary mt-5">color</span> <span class="primary">: var(--bs-gray-800);</span>: var(--bs-gray-800); <br>
-                <span class="secondary1 secondary"> background-color</span> <span class="primary">: var(--bs-gray-100);</span><br>
-                <span class="secondary1 secondary">border</span> <span class="primary">border: 1px solid var(--bs-gray-200);</span> <br>
-                <span class="secondary1 secondary"> border-radius</span> <span class="primary">border-radius: .25rem;</span><br><br>
-              }
-              
-              <span class="secondary1 primary"> .component-header{ </span><br>
-                <span class="secondary1 secondary"> color</span><span class="primary">: var(--bs-purple);</span>: var(--bs-purple);<br> 
-            }
-              </p>
-              </div> 
-              <div class="col-6 col-lg-6 col-md-6 col-sm-12 " >
-                <h3 class="variables">Customizing via CSS variables</h3> 
-                <p>Override global, component, or utility class variables to customize Bootstrap just<br> how you like. No need to redeclare each rule, just a new variable value.</p>
-               <p class="secondary3"> <span class=" secondary secondary2"> body {</span>  <br>
-                  <span class=" secondary secondary2">  --bs-body-font-family</span>  <span class="primary">border-radius: .25rem;</span>: var(--bs-font-monospace);<br>
-                  <span class=" secondary secondary2"> --bs-body-line-height:</span><span class="primary"> .25rem;</span> <br>
-                  <span class=" secondary secondary2">  --bs-body-line-height:</span><span class="primary"> : var(--bs-gray-100);</span><br>
-                  <span class=" secondary secondary2"> --bs-body-line-height: 1.4;</span> <span class="primary">: var(--bs-gray-100);</span> ;<br>
-                }<br>
-                
-                <span class=" secondary secondary1">  .table </span>  {<br>
-                  <span class=" secondary secondary2">--bs-table-color</span>  <span class="primary">: var(--bs-gray-600);</span><br>
-                  <span class=" secondary secondary2"> --bs-table-bg</span>  <span class="primary">: var(--bs-gray-100);</span><br>
-                  <span class=" secondary secondary2">--bs-table-border-color</span>  <span class="primary">: transparent;</span><br>
-                }</p>
-              </div>
-          <span>
-                <img src="square.png " class="img-thumbnail png7" alt="...">+ <img src="asterisk.png " class="img-thumbnail png7" alt="..."></span>
-              <h1 class="api">Components, meet the Utility API</h1>
-              <p class="new">New in Bootstrap 5, our utilities are now generated by our<a href="https://getbootstrap.com/docs/5.3/utilities/api/"> Utility API. </a>We built it as a feature- packed Sass map that can be quickly and easily customized. It's never been easier to add, remove, or modify any utility classes. Make utilities responsive, add pseudo-class variants, and give them custom names.</p>
-              <div class="container ">
-                <div class="row ">
-                  <div class="col-7 col-lg-6 col-md-8 col-sm-12 contact1  "> 
-                    <h1 class="api3 ">Quickly customize components</h1> 
-                    <p class="new">Apply any of our included utility classes to our components to customize their appearance, like the navigation example below. There are hundreds of classes available—from positioning and sizing to colors and effects. Mix them with CSS variable overrides for even more control.</p>
-               <div class="var">     <button type="button" class="btn btn-primary home ">Home</button><span class="profile">Profile </span> <span class="profile"> Contact</span><br>
-                  <!-- <div class="profile1">  <button type="button" class="btn  home1">Home</button><span class="profile">Profile </span> <span class="profile"> Contact</span></div> -->
-                  <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm mb-3" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-  <li class="nav-item " role="presentation">
-    <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <!-- <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button> -->
-  </li>
-</ul> </div> <div class="api2">
-  <span class="primary">  @import</span> <span class=" secondary secondary">   "bootstrap/scss/bootstrap";</span><br>
+                <h3 class="api4 ">Create and extend utilities</h3>
+                <p class="why">Why write more JavaScript when you can write HTML?<br> Nearly all of Bootstrap's
+                  JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding data
+                  attributes.</p>
+                <div class="drop">
+                  <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Dropdown link
+                    </a>
 
-  <span class="primary"> $utilities</span> <span class=" secondary secondary"> : map-merge </span> <br>
-<span class="primary"> $utilities</span> ,<br>
-<br>
-<span class="primary"> "cursor"</span>  <span class=" secondary secondary">  :table </span>: (<br>
-<span class="primar">  property</span> <span class=" secondary secondary">: cursor, </span> <br>
-<span class="primary"> class</span> <span class=" secondary secondary"> : cursor, </span> <br>
-<span class="primary">responsive</span> <span class=" secondary secondary"> : true, </span> <br>
-<span class="primary"> values</span> <span class=" secondary secondary"> : auto pointer grab, </span> <br>
-)<br></div>
-</div>
-                 
-            
-  
-                  
-                  <div class="col-5 col-lg-6 col-md-8 col-sm-12"> 
-                   
-                    <h1 class="create1 ">Create and extend utilities</h1>
-                    <p class="new">Use Bootstrap's utility API to modify any of our included utilities or create your own custom utilities for any project. Import Bootstrap first, then use Sass map functions to modify, add, or remove utilities.</p>
-                    <div class="api2">  <span class="primary">  @import</span> <span class=" secondary secondary1">   "bootstrap/scss/bootstrap";</span><br>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another cfdxsz</a></li>
+                      <li><a class="dropdown-item" href="#">Something else gvffcd here</a></li>
+                    </ul>
 
-                     <span class="primary"> $utilities</span> <span class=" secondary secondary1"> : map-merge( </span> <br>
- <span class="primary"> $utilities</span> ,<br>
-  (<br>
-   <span class="primary"> "cursor"</span>  <span class=" secondary secondary4">  :table </span>: (<br>
-    <span class="primary">  property</span> <span class=" secondary secondary4">: cursor, </span> <br>
-    <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
-     <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
-     <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span> <br>
-    )<br>
-  )<br>
-                     );<br></div> <div class="explore">
-<a href="https://getbootstrap.com/docs/5.3/utilities/api/">Explore the utility API<i class="fa-solid fa-arrow-right"></i></a></div>
                   </div>
-        
-               
-                  <div class="pngimg">
-                    <img src="plug.png" class="img-thumbnail" alt="..."></div>
-                
-                <h1 class="api ">Powerful JavaScript plugins<br> without jQuery</h1>
-                <p class="add">Add toggleable hidden elements, modals and offcanvas menus, popovers and tooltips, and so<br> much more—all without jQuery. Bootstrap's JavaScript is HTML-first, meaning most plugins are<br> added with data attributes in your HTML. Need more control? Include individual plugins<br> programmatically.</p>
-                <a href="https://getbootstrap.com/docs/5.3/utilities/api/">Learn more about Bootstrap JavaScript<i class="fa-solid fa-arrow-right"></i></a> 
+
+                </div>
+                <div class="api2"> <span class="primary"> @import</span> <span class=" secondary secondary1">
+                    "bootstrap/scss/bootstrap";</span><br>
+
+                  <span class="primary"> $utilities</span> <span class=" secondary secondary1"> : map-merge( </span>
+                  <br>
+                  <span class="primary"> $utilities</span> ,<br>
+                  (<br>
+                  <span class="primary"> "cursor"</span> <span class=" secondary secondary4"> :table </span>: (<br>
+                  <span class="primary"> property</span> <span class=" secondary secondary4">: cursor, </span> <br>
+                  <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
+                  <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
+                  <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span>
+                  <br>
+                  )<br>
+                  )<br>
+                  <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
+                  <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
+                  <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span>
+                  <br>
+                  )<br>
+                  <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
+                  <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
+                  <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span>
+                  <br>
+                  <br>;<br>
+                </div>
+              </div>
+              <div class="col col-lg-6 col-md-6 col-sm-12">
+                <h3 class="api4 ">Create and extend utilities</h3>
+                <p class="why1">Bootstrap features a dozen plugins that you can drop into any project. Drop them in all
+                  at once, or choose just the ones you need.</p>
+
                 <div class="container ">
                   <div class="row ">
-                    <div class="col-6 col-lg-6 col-md-6 col-sm-12">
-                      <h3 class="api4 ">Create and extend utilities</h3> 
-                      <p class="why">Why write more JavaScript when you can write HTML?<br> Nearly all of Bootstrap's JavaScript plugins feature a first-class data API, allowing you to use JavaScript  just by adding data attributes.</p>
-                    <div class="drop">  <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown link
-                        </a>
-                      
-                        <ul class="dropdown-menu ">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another cfdxsz</a></li>
-                          <li><a class="dropdown-item" href="#">Something else gvffcd here</a></li>
-                        </ul> 
-            
-                      </div>
-            
-                    </div> 
-                    <div class="api2">  <span class="primary">  @import</span> <span class=" secondary secondary1">   "bootstrap/scss/bootstrap";</span><br>
-
-                      <span class="primary"> $utilities</span> <span class=" secondary secondary1"> : map-merge( </span> <br>
-  <span class="primary"> $utilities</span> ,<br>
-   (<br>
-    <span class="primary"> "cursor"</span>  <span class=" secondary secondary4">  :table </span>: (<br>
-     <span class="primary">  property</span> <span class=" secondary secondary4">: cursor, </span> <br>
-     <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
-      <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
-      <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span> <br>
-     )<br>
-   )<br>
-   <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
-      <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
-      <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span> <br>
-     )<br>
-     <span class="primary"> class</span> <span class=" secondary secondary4"> : cursor, </span> <br>
-     <span class="primary">responsive</span> <span class=" secondary secondary4"> : true, </span> <br>
-     <span class="primary"> values</span> <span class=" secondary secondary4"> : auto pointer grab, </span> <br>
-    <br>;<br></div></div>
                     <div class="col col-lg-6 col-md-6 col-sm-12">
-                      <h3 class="api4 ">Create and extend utilities</h3> 
-                      <p class="why1">Bootstrap features a dozen plugins that you can drop into any project. Drop them in all at once, or choose just the ones you need.</p>
-                      
-                      <div class="container ">
-                        <div class="row ">
-                          <div class="col col-lg-6 col-md-6 col-sm-12">
-                            <h4>Alert</h4>
-                            <p>Show and hide alert messages to your users.</p>
-                            <h4>Carousel</h4>
-                            <p>Add slideshows to any page, including support for crossfade.</p>
-                            <h4>Dropdown</h4>
-                            <p>Create menus of links, actions, forms, and more.</p>
-                            <h4>Offcanvas</h4>
-                            <p>Build and toggle hidden sidebars into any page.</p>
-                            <h4>Scrollspy</h4>
-                            <p>Automatically update active nav links based on page scroll.</p>
-                            <h4>Toast</h4>
-                            <p>Show and hide notifications to your visitors.</p>
-                          </div>
-                          <div class="col">
-                            <h4>Button</h4>
-                            <p>Programmatically control the active state for buttons.</p>
-                            <h4>Collapse</h4>
-                            <p>Expand and collapse areas of content, or create accordions.</p>
-                            <h4>Modal</h4>
-                            <p>Add flexible and responsive dialogs to your project.</p>
-                            <h4>Popover</h4>
-                            <p>Create custom overlays. Built on Popper.</p>
-                            <h4>Tab</h4>
-                            <p>Allow Bootstrap nav components to toggle contents.</p>
-                            <h4>Tooltip</h4>
-                            <p>Replace browser tooltips with custom ones. Built on Popper.</p>
-                          </div>
-                          
-                        </div>
-                        
-                          </div>
-                        </div>
-                        <div class="container ">
-                          <div class="row ">
-                            <div class="col-6 lg-6-md-6-sm-12 mt-5">
-                              <h1 class="Personalize ">Personalize it with<br> Bootstrap Icons</h1>
-
-                              <p class="add"><a href="https://getbootstrap.com/docs/5.3/utilities/api/">Bootstrap Icons </a>is an open source SVG icon library featuring over 1,800 glyphs, with more added every release. They're designed to work in any project, whether you use Bootstrap itself or not. Use them as SVGs or icon fonts—both options give you vector scaling and easy customization via CSS.</p>
-                              <a href="https://getbootstrap.com/docs/5.3/utilities/api/">Learn more about Bootstrap JavaScript<i class="fa-solid fa-arrow-right"></i></a> 
-                            </div>
-                            <div class="col-6 lg-6-md-6-sm-6">
-                              <img src="download (1).png" class="img-fluid img1" alt="...">
-                            </div>
-                            
-                      </div>
+                      <h4>Alert</h4>
+                      <p>Show and hide alert messages to your users.</p>
+                      <h4>Carousel</h4>
+                      <p>Add slideshows to any page, including support for crossfade.</p>
+                      <h4>Dropdown</h4>
+                      <p>Create menus of links, actions, forms, and more.</p>
+                      <h4>Offcanvas</h4>
+                      <p>Build and toggle hidden sidebars into any page.</p>
+                      <h4>Scrollspy</h4>
+                      <p>Automatically update active nav links based on page scroll.</p>
+                      <h4>Toast</h4>
+                      <p>Show and hide notifications to your visitors.</p>
                     </div>
-                    <!-- <i class="fa-regular fa-droplet fa-lg"></i> -->
-                    <div class="container">
-                      <div class="row ">
-                        <div class="col col-lg-6 col-md-6 col-sm-12">
-                          <h1 class="api ">Make it yours with official<br> Bootstrap Themes</h1>
-                          <p class="add">Bootstrap Icons is an open source SVG icon library featuring over 1,800 glyphs, with more added every release. They're designed to<a  href="https://getbootstrap.com/docs/5.3/utilities/api/"> work in any project</a>, whether you use Bootstrap itself or not. Use them as SVGs or icon fonts—both options give you vector scaling and easy customization via CSS.</p>
-
-                        </div>
-                        <div class="col">
-                          <img src="bootstrap-themes.png" class="img-fluid img1" alt="...">
-                        </div>
-                       
-                      </div>
+                    <div class="col">
+                      <h4>Button</h4>
+                      <p>Programmatically control the active state for buttons.</p>
+                      <h4>Collapse</h4>
+                      <p>Expand and collapse areas of content, or create accordions.</p>
+                      <h4>Modal</h4>
+                      <p>Add flexible and responsive dialogs to your project.</p>
+                      <h4>Popover</h4>
+                      <p>Create custom overlays. Built on Popper.</p>
+                      <h4>Tab</h4>
+                      <p>Allow Bootstrap nav components to toggle contents.</p>
+                      <h4>Tooltip</h4>
+                      <p>Replace browser tooltips with custom ones. Built on Popper.</p>
                     </div>
+
                   </div>
+
                 </div>
-               
+              </div>
+              <div class="container ">
+                <div class="row ">
+                  <div class="col-6 lg-6-md-6-sm-12 mt-5">
+                    <h1 class="Personalize ">Personalize it with<br> Bootstrap Icons</h1>
+
+                    <p class="add"><a href="https://getbootstrap.com/docs/5.3/utilities/api/">Bootstrap Icons </a>is an
+                      open source SVG icon library featuring over 1,800 glyphs, with more added every release. They're
+                      designed to work in any project, whether you use Bootstrap itself or not. Use them as SVGs or icon
+                      fonts—both options give you vector scaling and easy customization via CSS.</p>
+                    <a href="https://getbootstrap.com/docs/5.3/utilities/api/">Learn more about Bootstrap JavaScript<i
+                        class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                  <div class="col-6 lg-6-md-6-sm-6">
+                    <img src="download (1).png" class="img-fluid img1" alt="...">
+                  </div>
+
+                </div>
+              </div>
+              <!-- <i class="fa-regular fa-droplet fa-lg"></i> -->
+              <div class="container">
+                <div class="row ">
+                  <div class="col col-lg-6 col-md-6 col-sm-12">
+                    <h1 class="api ">Make it yours with official<br> Bootstrap Themes</h1>
+                    <p class="add">Bootstrap Icons is an open source SVG icon library featuring over 1,800 glyphs, with
+                      more added every release. They're designed to<a
+                        href="https://getbootstrap.com/docs/5.3/utilities/api/"> work in any project</a>, whether you
+                      use Bootstrap itself or not. Use them as SVGs or icon fonts—both options give you vector scaling
+                      and easy customization via CSS.</p>
+
+                  </div>
+                  <div class="col">
+                    <img src="bootstrap-themes.png" class="img-fluid img1" alt="...">
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>
-        </div>
-       
-      </div><div class="footer">
-      <div class="container  ">
-        <div class="row ">
-          <div class="col">
-           
-            <img src="bootstrap-logo-shadow.png" alt="" width="60" height="54" class="d-inline-block align-text-top">
-            <h5>Bootstrap</h5> 
-            <p>Bootstrap
-              Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</p>
-              <p>Code licensed MIT, docs CC BY 3.0.</p>
-              <p>Currently v5.3.2.</p>
-          </div>
-          <div class="col">
-           <h4>Links</h4>
-           <p>Home</p>
-           <p>Docs</p>
-           <p>Examples</p>
-           <p>Icons</p>
-           <p>Themes</p>
-           <p>Blog</p>
-           <p>Swag Store</p>
 
-          </div>
-          <div class="col">
-            <h4>Guides</h4>
-            <p>Getting started</p>
-            <p>Starter template</p>
-            <p>Webpack</p>
-            <p>Parcel</p>
-            <p>Vite</p>
-           
-          </div>
-          <div class="col">
-            <h4>Projects</h4>
-            <p>Bootstrap 5</p>
-            <p>Bootstrap 4</p>
-            <p>Icons</p>
-            <p>RFS</p>
-            <p>Examples repo
-            </p>
-          </div>
-          <div class="col">
-            <h4>Community</h4>
-            <p>Issues</p>
-            <p>Discussions</p>
-            <p>Corporate sponsors</p>
-            <p>Open Collective</p>
-            <p>Stack Overflow</p>
-           
-          </div>
         </div>
-      </div></div>
+      </div>
+    </div>
+  </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </div>
+  <div class="footer">
+    <div class="container  ">
+      <div class="row ">
+        <div class="col">
+
+          <img src="bootstrap-logo-shadow.png" alt="" width="60" height="54" class="d-inline-block align-text-top">
+          <h5>Bootstrap</h5>
+          <p>Bootstrap
+            Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.
+          </p>
+          <p>Code licensed MIT, docs CC BY 3.0.</p>
+          <p>Currently v5.3.2.</p>
+        </div>
+        <div class="col">
+          <h4>Links</h4>
+          <p>Home</p>
+          <p>Docs</p>
+          <p>Examples</p>
+          <p>Icons</p>
+          <p>Themes</p>
+          <p>Blog</p>
+          <p>Swag Store</p>
+
+        </div>
+        <div class="col">
+          <h4>Guides</h4>
+          <p>Getting started</p>
+          <p>Starter template</p>
+          <p>Webpack</p>
+          <p>Parcel</p>
+          <p>Vite</p>
+
+        </div>
+        <div class="col">
+          <h4>Projects</h4>
+          <p>Bootstrap 5</p>
+          <p>Bootstrap 4</p>
+          <p>Icons</p>
+          <p>RFS</p>
+          <p>Examples repo
+          </p>
+        </div>
+        <div class="col">
+          <h4>Community</h4>
+          <p>Issues</p>
+          <p>Discussions</p>
+          <p>Corporate sponsors</p>
+          <p>Open Collective</p>
+          <p>Stack Overflow</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
